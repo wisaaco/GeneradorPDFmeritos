@@ -41,7 +41,6 @@ Ejemplo del contenido del fichero "content.tex":
 \newpage\includepdf[pages=-,pagecommand={}]{temp/0.pdf}
 \newpage\includepdf[pages=-,pagecommand={}]{temp/1.pdf}
 
-
-### 3º)
+### 3º) 
 Finalmente, tan sólo deberemos generar el documento PDF mediante el documento principal llamado: main.tex. Para ello, os aconsejo utilizar vuestro editor de latex preferido. 
 
