@@ -1,6 +1,6 @@
 # Generador de un PDF que incluye otros PDFs (méritos)
 
-Esta herramienta se realizó para facilitar la tarea de crear un único fichero que englobe los certificados de los méritos en las solicitudes enviadas la ANECA. 
+Esta herramienta se realizó para facilitar la tarea de crear un único fichero que englobe los certificados de los méritos en las solicitudes enviadas a la ANECA. 
 
 La herramienta está implementada en Python 2.7 y también requiere latex. Las funcionalidades implementadas son bastante básicas, pero creo que puede extenderse (y mejorarse) fácilmente.
 
