@@ -35,7 +35,7 @@ python GeneradorContenidosLatex.py
 La ejecución del fichero "GeneradorContenidosLatex.py" crea contenido latex en el fichero "content.tex". Este contenido incluye múltiples secciones y sub-secciones de latex acorde a la jerarquía de directorios y entre las secciones incluye los certificados (\includepdf). Tan sólo soporta tres niveles de directorios (\section, \subsection, \subsubsection). Una mejora futura es incluir alguna notación para dar cabida a listas (itemize, enumerate).
 Como el nombre de los certificados puede incluir caracteres no soportados por látex, se duplican y renombran los certificados en un directorio temporal. No es la solución más óptima pero funciona...
 
-Ejemplo del contenido del fichero "content.tex":
+Ejemplo del contenido del fichero "content.tex" generado por el script de python:
 ```
 \section{Méritos obligatorios}
 \newpage\subsection{Publicaciones científicas indexadas en JCR}
