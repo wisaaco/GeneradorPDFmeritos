@@ -12,7 +12,7 @@ Los certificados han de ser pdfs.
  
 
 Por ejemplo:
-
+```
 1 OrganizacionCV (carpeta raíz)
   1. Méritos obligatorios
     1. Publicaciones científicas indexadas en JCR
@@ -21,6 +21,7 @@ Por ejemplo:
   2. Méritos complementarios
   3. Recibos de gas
   ...
+```
 
 ### 2º) 
 Los ficheros que van a generar el pdf están en la carpeta "2 GeneradorCV".
