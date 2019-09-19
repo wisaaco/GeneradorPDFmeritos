@@ -1,4 +1,4 @@
-# Generador de un PDF que incluye méritos
+# Generador de un PDF que incluye otros PDFs (méritos)
 
 Esta herramienta se realizó para facilitar la tarea de crear un único fichero que englobe los certificados de los méritos en las solicitudes enviadas la ANECA. 
 
