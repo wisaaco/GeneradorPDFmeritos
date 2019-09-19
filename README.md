@@ -2,7 +2,7 @@
 
 Esta herramienta se realizó para facilitar la tarea de crear un único fichero que englobe los certificados de los méritos en las solicitudes enviadas a la ANECA. 
 
-La herramienta está implementada en Python 2.7 y también requiere latex. Las funcionalidades implementadas son bastante básicas, pero creo que puede extenderse (y mejorarse) fácilmente.
+La herramienta está implementada en Python 2.7 y también requiere latex. Las funcionalidades implementadas son bastante básicas, pero creo que puede extenderse (y mejorarse) fácilmente. Se ha testeado en OS High Sierra y en Windos 10.
 
 ## ¿cómo funciona?
 
