@@ -35,11 +35,12 @@ La ejecución del fichero "GeneradorContenidosLatex.py" crea contenido latex en 
 Como el nombre de los certificados puede incluir caracteres no soportados por látex, se duplican y renombran los certificados en un directorio temporal. No es la solución más óptima pero funciona...
 
 Ejemplo del contenido del fichero "content.tex":
-
+```
 \section{Méritos obligatorios}
 \newpage\subsection{Publicaciones científicas indexadas en JCR}
 \newpage\includepdf[pages=-,pagecommand={}]{temp/0.pdf}
 \newpage\includepdf[pages=-,pagecommand={}]{temp/1.pdf}
+```
 
 ### 3º) 
 Finalmente, tan sólo deberemos generar el documento PDF mediante el documento principal llamado: main.tex. Para ello, os aconsejo utilizar vuestro editor de latex preferido. 
