@@ -2,16 +2,15 @@
 
 Esta herramienta se realizó para facilitar la tarea de crear un único fichero que englobe los certificados de los méritos en las solicitudes enviadas a la ANECA. 
 
-La herramienta está implementada en Python 2.7 y también requiere latex. Las funcionalidades implementadas son bastante básicas, pero creo que puede extenderse (y mejorarse) fácilmente. Se ha testeado en OS High Sierra y en Windos 10.
+La herramienta está implementada en Python 2.7 y también requiere latex. Las funcionalidades implementadas son bastante básicas, pero creo que puede extenderse (y mejorarse) fácilmente. Se ha testeado en OS High Sierra y en Windows 10.
 
 ## ¿cómo funciona?
 
 ### 1º) 
-Los certificados han de organizarse en carpetas, donde el nombre de las carpetas representa la categoría ordenada del fichero PDF. El nombre de las carpeta puede ser cualquiera pero el número inicial es necesario para preservar el orden.
-Los certificados han de ser pdfs. 
+Los certificados han de organizarse en carpetas, donde el nombre de las carpeta representa la categoría ordenada del fichero PDF. El nombre de las carpeta está formado por un número inicial para preservar el orden y el texto deseado. Los certificados han de ser pdfs. 
  
 
-Por ejemplo:
+Un ejemplo de estructura tipo:
 ```
 1 OrganizacionCV (carpeta raíz)
   1. Méritos obligatorios
@@ -44,5 +43,5 @@ Ejemplo del contenido del fichero "content.tex" generado por el script de python
 ```
 
 ### 3º) 
-Finalmente, tan sólo deberemos generar el documento PDF mediante el documento principal llamado: main.tex. Para ello, os aconsejo utilizar vuestro editor de latex preferido. 
+Finalmente, tan sólo debemos generar el documento PDF usando el documento principal llamado: main.tex. Os aconsejo utilizar vuestro editor de latex preferido. 
 
